@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header></Header>
-      <main>
+      <main className="max-w-[500px] m-auto">
         <div>
           <h1 className="ml-9 font-'Open_Sans' font-bold text-[#535353] text-[18px] mb-[18px]">
             Procure sua Cidade

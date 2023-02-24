@@ -15,13 +15,13 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main>
+      <main className="max-w-[500px] m-auto">
         <img
           src="/images/weather.png"
           alt="Weather Image"
           className="w-[276px] m-auto mb-20"
         />
-        <div className="bg-[#FFFFFF] absolute bottom-0 h-[341px] rounded-t-[50px]">
+        <div className="bg-[#FFFFFF] h-[341px] rounded-t-[50px] m-auto">
           <div className="flex flex-col gap-[31px] drop-shadow-[0_4px_10px_rgba(0,0,0,0.25)] p-10">
             <h1 className="font-'Open_Sans' font-semibold text-[20px] text-center">
               Encontre as previsões meteorológicas em sua cidade
